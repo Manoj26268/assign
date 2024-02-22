@@ -1,0 +1,51 @@
+#Blogs {
+    margin-top: 50px;
+}
+
+#Blogs h2 {
+    font-weight: 600;
+    color: #1f73cb;
+}
+
+.blogCard {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogCard p,
+.blogCard a {
+    color: #666;
+    font-size: medium;
+}
+
+.blogCard a {
+    text-decoration: none;
+    color: #007bff;
+    align-self: flex-start;
+}
+
+.blogBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .blogBody {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogCard {
+        width: 90%;
+        height: auto;
+    }
+}

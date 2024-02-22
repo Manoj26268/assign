@@ -1,0 +1,125 @@
+.footerRow {
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.contactEmail {
+    font-size: medium;
+    font-weight: 300;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+.glassdoorIsoWrap {
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.glassdoorIsoWrap img {
+    width: auto;
+    max-width: 150px;
+    height: auto;
+
+}
+
+
+
+.footright {
+
+    padding-right: 40px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.righttop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.row {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.copyright {
+    padding-top: 30px;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.listUnstyled {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.listUnstyled li a {
+    text-decoration: none;
+    color: #4876eb;
+    font-size: medium;
+
+
+}
+
+
+.iconsbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+
+.socialIcons {
+    width: 70px;
+    font-size: large;
+    border-radius: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+    background: #fff;
+    color: #777777;
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+
+}
+
+.socialIcons:hover {
+    filter: grayscale(0);
+}
+
+
+
+.navbarBrand {
+    display: block;
+    margin-bottom: 2rem;
+}

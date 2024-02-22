@@ -1,0 +1,35 @@
+
+
+
+.offerSection {
+    color: #333;
+
+}
+
+.offerSection h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    color: #1f73cb;
+}
+
+.offer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.offer h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+}
+
+.offer p {
+
+    font-size: medium;
+
+}
